@@ -67,7 +67,25 @@ h1 {
     border-color: #cbd1d5;
 }
 
+.button-section {
+    border-bottom: 2px solid#f6f8f9;
+}
+
 /* List */
+
+li {
+    list-style-type: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.list {
+    margin: 30px 30px;
+
+
+
+}
 
 .shield {
     font-size: 20px;
@@ -97,20 +115,17 @@ h1 {
 
 /* Button list */
 
-li {
-    list-style-type: none;
-    height: 40px;
-}
+
 
 .button-list {
-    padding: 4px 15px;
+    padding: 6px 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
     border: none;
 }
@@ -144,5 +159,4 @@ li {
     margin: 0 auto;
     background-color:white;
     margin-top: 30px;
-   
 }
