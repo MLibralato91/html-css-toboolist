@@ -1,0 +1,35 @@
+/* 
+color skyblue botton: #47adf1
+
+color skyblue2 badge : #45abea
+
+color purple badge : #9c72e4
+
+color green badge : #64c0a9
+
+color orange badge : #f29e33
+
+color pink badge : #d863a1
+
+color lightgreen badge : #b0c926
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f8f9;
+}
+
+.banner, img{
+    background-color: white;
+    vertical-align: top;
+    padding: 3px;
+}
+
+h1 {
+        display: inline-block;
+        font-size:40px;
+        background-color: white;
+}
