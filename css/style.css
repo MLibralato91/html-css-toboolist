@@ -22,6 +22,8 @@ color lightgreen badge : #b0c926
     background-color: #f6f8f9;
 }
 
+    /* Header */
+
 .banner, img{
     background-color: white;
     vertical-align: top;
@@ -32,4 +34,29 @@ h1 {
         display: inline-block;
         font-size:40px;
         background-color: white;
+}
+
+/* Main */
+
+.button {
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.task {
+    background-color: #47adf1;
+    color: white;
+    border: none;
+}
+
+.section {
+    color: #cbd1d5;
+    border-color: #cbd1d5;
 }
