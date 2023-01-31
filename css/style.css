@@ -13,8 +13,7 @@ color pink badge : #d863a1
 
 color lightgreen badge : #b0c926
 
-red #eb564d
-check #51b99f
+
 */
 
 *{
@@ -50,19 +49,21 @@ h1 {
     font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
-.task {
+.addtask {
     background-color: #47adf1;
     color: white;
     border: none;
 }
 
-.section {
+.addsection {
     color: #cbd1d5;
     border-color: #cbd1d5;
 }
+
+/* List */
 
 .shield {
     font-size: 12px;
@@ -77,8 +78,6 @@ h1 {
     margin: 4px 4px;
     padding: 3px;
     font-size: 10px;
-
-
 }
 
 .cross {
@@ -90,4 +89,23 @@ h1 {
     padding: 3px;
     font-size: 10px;
 
+}
+
+/* Button list */
+
+.button-list {
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.button-list, .editorial {
+    background-color: #45abea;
 }
