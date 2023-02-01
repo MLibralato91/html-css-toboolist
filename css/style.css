@@ -3,13 +3,13 @@ color skyblue botton: #47adf1
 
 color skyblue2 badge : #45abea
 
-color purple badge : #9c72e4
+color violet badge : #9c72e4
 
 color green badge : #64c0a9
 
 color orange badge : #f29e33
 
-color pink badge : #d863a1
+color pink badge : #d863a1                        
 
 color lightgreen badge : #b0c926
 
@@ -20,19 +20,23 @@ color lightgreen badge : #b0c926
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+
 }
 
 body {
     background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;           
 }
     /* Header */
 
-.banner, img{
+header {
     background-color: white;
+    padding: 5px 20px;
+}
+
+.banner img {
     vertical-align: top;
-    padding: 3px;
 }
 
 h1 {
@@ -69,6 +73,7 @@ h1 {
 
 .button-section {
     border-bottom: 2px solid#f6f8f9;
+    padding: 3px 30px;
 }
 
 /* List */
@@ -78,13 +83,11 @@ li {
     height: 40px;
     font-weight: bold;
     font-size: 13px;
+
 }
 
 .list {
     margin: 30px 30px;
-
-
-
 }
 
 .shield {
@@ -155,8 +158,9 @@ li {
 }
 
 .container {
-    max-width: 50%;
+    width: 70%;
     margin: 0 auto;
     background-color:white;
     margin-top: 30px;
+    border-radius: 8px;
 }
