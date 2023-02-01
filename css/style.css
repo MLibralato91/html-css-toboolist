@@ -96,24 +96,27 @@ li {
 }
 
 .check {
+    display:inline-block;
     border: 1px solid #51b99f;
     border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
     background-color: white;
     color: #51b99f;
-    margin: 4px 4px;
-    padding: 3px;
-    font-size: 10px;
+    height: 20px;
+    width: 20px;
 }
 
 .cross {
-    border: 1px solid #eb564d;
+    display:inline-block;
+    border: 1px solid #ee4545;
     border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
     background-color: white;
-    color: #eb564d;
-    margin: 4px 4px;
-    padding: 3px;
-    font-size: 10px;
-
+    color: #ee4545;
+    height: 20px;
+    width: 20px;
 }
 
 /* Button list */
